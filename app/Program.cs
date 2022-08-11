@@ -7,11 +7,11 @@ namespace app
         static void Main(string[] args)
         {
             double str;
-            Console.WriteLine("Введите число используя знак - ',' ");
+            Console.WriteLine("Введите расстояние в см ");
             str = Convert.ToDouble(Console.ReadLine());
             
             double a = Convert.ToDouble(str);
-            Console.WriteLine("Вы ввели число " + str);
+            Console.WriteLine("Расстояние в км " + str/1000);
 
         }
     }
